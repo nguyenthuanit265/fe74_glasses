@@ -1,0 +1,27 @@
+.body {
+  display: flex;
+  width: 100%;
+}
+
+.body .left {
+  width: 40%;
+  position: relative;
+}
+
+.body .left .model {
+  width: 100%;
+}
+
+.body .left .glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  object-fit: contain;
+  transform: translateX(50%) translateY(200%);
+}
+
+.body .right {
+  width: 60%;
+ 
+}
